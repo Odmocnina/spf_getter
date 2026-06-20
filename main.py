@@ -54,7 +54,7 @@ def get_domain_spf(url):
 # main function of the script
 def main():
     # load input CSV
-    INPUT_FILE = 'domains.csv'  # input CSV file
+    INPUT_FILE = 'SPF2025-finale.csv'  # input CSV file
     OUTPUT_FILE = 'output_with_spf.csv'  # output csv file
     URL_COLUMN = 'url'  # name of the column with URLs
     SPF_COLUMN = 'spf_record'  # name of the new column for SPF records
